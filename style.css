@@ -1,0 +1,19 @@
+#caja{
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.637);
+margin: auto;
+width: fit-content;
+border-radius: 20px;
+height: 70px;
+width: 450px;
+
+}
+#boton{
+    background-color:rgb(0, 183, 255) ;
+    border-radius: 20px;
+
+}
+
+#text{
+    color: red;
+}

@@ -1,3 +1,5 @@
+var ser="estos son los resultado obtenidos: "; 
+document.getElementById("text").innerHTML=ser;
 a=parseInt(prompt("numero de datos que desea tomar "));
 for (let index = 0; index < a ; index++) {
     var nombre = prompt("su nombre");
@@ -86,7 +88,7 @@ for (let index = 0; index < a ; index++) {
     
     
 }
-document.getElementById("boton").addEventListener("click",function () {
+var text=document.getElementById("boton").addEventListener("click",function () {
     var nombre = prompt("su nombre");
     var edad = parseInt(prompt("ingresa tu edad "));
     var peso=parseInt(prompt(" ingrese su peso"));
@@ -180,4 +182,3 @@ document.getElementById("boton").addEventListener("click",function () {
     
 });
 
- 
